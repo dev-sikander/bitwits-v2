@@ -1,0 +1,92 @@
+.banner {
+  background: #000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0 50px;
+}
+
+.banSec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banSec h1 {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* =============================== */
+
+.graceMonkey {
+  background-image: url(../public/images/case-monkey/banner-bg.png);
+}
+
+.cravecourier {
+  background-image: url(../public/images/case-crave/banner-bg.png);
+}
+
+.homepro {
+  background-image: url(../public/images/case-homepro/banner-bg.png);
+}
+
+.readyApp {
+  background-image: url(../public/images/case-ready/banner-bg.png);
+}
+
+.soulscribe {
+  background-image: url(../public/images/case-scribe/banner-bg.png);
+}
+
+.fitnow {
+  background-image: url(../public/images/case-fitnow/banner-bg.png);
+}
+
+.beats {
+  background-image: url(../public/images/case-beats/banner-bg.png);
+  background-position: 40px -200px;
+}
+
+.healthcare {
+  background-image: url(../public/images/case-health/banner-bg.png);
+}
+
+.dreamhome {
+  background-image: url(../public/images/case-dreamhome/banner-bg.png);
+}
+
+.rideme {
+  background-image: url(../public/images/case-ride/banner-bg.png);
+}
+
+.tourista {
+  background-image: url(../public/images/case-travel/banner-bg.png);
+}
+
+.sponsord {
+  background-image: url(../public/images/case-sponsord/banner-bg.png);
+}
+
+.wisu {
+  background-image: url(../public/images/case-wisu/banner-bg.png);
+}
+
+/* =========================================== */
+
+@media screen and (max-width: 991px) {
+  .banner {
+    padding: 50px 0 0px;
+    background-image: none;
+  }
+
+  .banSec h1 {
+    font-size: 16px;
+  }
+  
+}
+

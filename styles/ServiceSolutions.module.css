@@ -1,0 +1,73 @@
+.home {
+  background: #000;
+  padding-top: 220px;
+  padding-bottom: 250px;
+}
+
+.game2d {
+  padding: 100px 0 150px;
+}
+
+.gameApp {
+  padding: 50px 0 250px;
+}
+
+.gameNft{
+  padding: 150px 0 200px;
+}
+
+.gameBlckChain{
+  padding: 200px 0 0;
+}
+
+.solImg {
+  text-align: right;
+}
+
+.para {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.home h2 {
+  background-image: linear-gradient(to right, #f32f53, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  width: 318px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 991px) {
+  .home {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .gameApp {
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+
+  .home h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .gameBlckChain{
+    padding-bottom: 0;
+  }
+}
