@@ -63,6 +63,12 @@
   margin-top: -110px;
 }
 
+.newIndexBanner {
+  margin-top: 0;
+  background-color: #000;
+  padding-top: 20px;
+}
+
 .strpImg img {
   filter: brightness(3);
   width: 50%;

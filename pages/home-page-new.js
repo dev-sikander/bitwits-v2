@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react';
 //components
 const NewIndexBanner = React.lazy(() => import('@/components/NewIndexBanner'));
-const NewPopup = React.lazy(() => import('@/components/NewPopup'));
+const HomeBannerSlider = React.lazy(() => import('@/components/HomeBannerSlider'));
 const NewHomeAbout = React.lazy(() => import('@/components/NewHomePageAbout'));
 const NewHomeWho = React.lazy(() => import('@/components/NewHomeWho'));
 const Justbuildit = React.lazy(() => import('@/components/Justbuildit'));
@@ -30,7 +30,9 @@ export default function Home() {
             </Head>
 
             <NewIndexBanner />
-            <NewPopup />
+            <HomeBannerSlider
+                addClass='newIndexBanner'
+            />
             <NewHomeAbout
                 title="Our Client’s Feedback Has Been"
                 subtitle="Nothing Short Of Amazing!"
